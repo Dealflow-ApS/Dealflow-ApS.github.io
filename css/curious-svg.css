@@ -1,0 +1,27 @@
+body {
+  min-height: calc(100vh - 1rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#abelavatar {
+  flex-shrink: 0;
+  width: 600px;
+  max-width: 90vw;
+  cursor: pointer;
+}
+
+.pink-fill {
+  fill: pink !important
+}
+
+.open-mouth {
+  opacity: 0;
+  transition: 0.05s ease-in-out;
+}
+
+#abelavatar:hover .open-mouth {
+  opacity: 1;
+}

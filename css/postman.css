@@ -1,0 +1,10 @@
+.postman-like-button {
+
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+
+.postman-like-button:hover {
+    background-color: #ff5722;
+}
