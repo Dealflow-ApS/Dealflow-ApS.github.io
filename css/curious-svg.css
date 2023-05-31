@@ -1,5 +1,6 @@
 body {
-  min-height: calc(100vh - 1rem);
+  min-height: calc(50vh - 0.5rem);
+  max-height: calc(50vh - 0.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,8 +9,8 @@ body {
 
 #abelavatar {
   flex-shrink: 0;
-  width: 600px;
-  max-width: 90vw;
+  width: 150px;
+  max-width: 22.5vw;
   cursor: pointer;
 }
 
